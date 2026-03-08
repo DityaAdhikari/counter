@@ -1,15 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Counter Web Application</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3>Count the number of people entered.</h3>
-    <h2 id="count">0</h2>
-    <button id="increament_button" onclick="increament()">Increament button</button>
+    <div class="container">
+        <h1 class="heading">Count the number of people entered</h1>
+        <div class="counter">
+            <span class="counter-machine">0</span>
+        </div>
+        <div class="btn-group">
+            <button class="btn-counter decrease-btn">decrement</button>
+            <button class="btn-counter increase-btn">increment</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
